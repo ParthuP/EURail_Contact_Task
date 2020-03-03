@@ -8,6 +8,7 @@ import * as serviceWorker from './serviceWorker';
 import 'primereact/resources/themes/nova-light/theme.css';
 import 'primereact/resources/primereact.min.css';
 import 'primeicons/primeicons.css';
+import "primeflex/primeflex.css"
 
 ReactDOM.render(<App />, document.getElementById('root'));
 

@@ -1,4 +1,4 @@
-import {CONFIG} from './constants';
+import { CONFIG } from './constants';
 /**
  * Util class to make APIServices
  */
@@ -8,9 +8,9 @@ class APIServices {
    * @param   {string} [userCount]  Count to users to be fetched
    * @returns {Promise}
    */
-    async getUserData (userCount = CONFIG.numberCards) {
+    async getUserData(userCount = CONFIG.numberCards) {
         const response = await fetch(
-            CONFIG.userUrl+`/?results=${userCount}`
+            CONFIG.userUrl + `/?results=${userCount}`
         );
         if (response.status === 200) {
             return await response.json();
