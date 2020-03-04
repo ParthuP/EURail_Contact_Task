@@ -7,7 +7,7 @@ const App = () => {
   return (
     <div className="App">
       <header className="App-header">
-        <h2>{CONFIG.title}</h2>
+        <h2 className="page-title">{CONFIG.title}</h2>
       </header>
       <main>
         <div className="contact-page">

@@ -76,7 +76,8 @@ class Contacts extends React.Component {
         else {
             contactUsers = userData && userData.map((user, idx) => {
                 return (
-                    <div className="grid_item" key={idx} onClick={() => { this.showContactDialog(user) }}>
+                    <div className="grid_item" key={idx} 
+                    onClick={() => { this.showContactDialog(user) }}>
                         <div className="flex_center">{user.name.last}, {user.name.first.toString().toUpperCase()}</div>
                     </div>
                 );
@@ -114,7 +115,7 @@ class Contacts extends React.Component {
     }
 
     render() {
-        const { activeIdx, contactUsers, contactsCount, dialogComp } = this.state
+        const { activeIdx, contactUsers, contactsCount, dialogComp} = this.state
         return (
             <div>
                 <TabView onTabChange={(e) => this.showContactsOnTabChange(e)} activeIndex={activeIdx}>

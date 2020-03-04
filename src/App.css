@@ -3,7 +3,7 @@
 }
 
 .App-header {
-  background-color:grey;
+  background-color:#efefef;
   min-height: 10vh;
   display: flex;
   flex-direction: column;
@@ -15,6 +15,10 @@
 
 .contact-page {
   position: relative;
+}
+
+.page-title {
+  color: black;
 }
 
 .contact_count { 
@@ -84,7 +88,7 @@
 }
 
 .ucard__avatar__img {
-  margin-top: 5px;
+  margin-top: 30px;
   width: 120px;
   height: 120px;
   position: relative; 
