@@ -2,7 +2,6 @@
   text-align: center;
 }
 
-
 .App-header {
   background-color:grey;
   min-height: 10vh;
@@ -25,12 +24,11 @@
   background-color: #efefef; 
   color:black;
 }
+
 .contact_text {
   font-weight: bold;
   font-size: 15px;
 }
-
-
 
 .grid {
   padding: 10px 100px 0;
@@ -38,7 +36,6 @@
   flex-wrap: wrap;
   justify-content: flex-start;
 }
-
 
 .grid_item {
   position: relative;
@@ -54,42 +51,66 @@
   border: 1px solid #0277bd;
   height: 40px;
 }
- 
-  .flex_center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: black;
-  }
-  .dialogue_comp{
-    width: 30%;
-    height: 27%; 
-  }
 
-  .leftBlock {
-    position: absolute;
-    overflow: auto;
-    right: 70%;
-    left: 0;
-    top: 0;
-    bottom: 30px;
-    background: #aabbcc;
-  }
-  .rightBlock {
-    position: absolute;
-    overflow: auto;
-    left: 30%;
-    right: 0;
-    top: 0;
-    bottom: 30px;
-    width: 70%;
-    height: 100%;
-    background: blue;
-  }
-  .ucard__avatar__img {
-    width: 120px;
-    height: 120px;
-    position: relative; 
-    border-radius: 50%; 
-    border: 2px solid #0277bd;
-  }
+.flex_center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+
+.dialogue_comp{
+  width: 30%;  
+}
+
+.leftBlock {
+  position: absolute;
+  overflow: auto;
+  right: 70%;
+  left: 0;
+  top: 0; 
+  background: lightgray;
+  height: 100%;
+}
+
+.rightBlock { 
+  position: absolute;
+  overflow: auto;
+  left: 30%;
+  right: 0;
+  top: 0;  
+  background: lightgray;
+  height: 100%;
+}
+
+.ucard__avatar__img {
+  margin-top: 5px;
+  width: 120px;
+  height: 120px;
+  position: relative; 
+  border-radius: 50%;  
+}
+
+.p-dialog-content {
+  height: 250px !important;
+}
+
+.address_book {
+  width: 250px;
+  float: left; 
+}
+
+.address_form {
+  margin-left: 30px;
+}
+
+.address_h2 {
+  display: block;
+  float: left;
+}
+
+.address_span {
+  display: block;
+  font-size: 10px;
+  float: left;
+}

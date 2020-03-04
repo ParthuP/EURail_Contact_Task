@@ -3,7 +3,7 @@ import './App.css';
 import { CONFIG } from './utils/constants'; 
 import Contacts from './components/Contacts';
 
-function App() {
+const App = () => {
   return (
     <div className="App">
       <header className="App-header">
