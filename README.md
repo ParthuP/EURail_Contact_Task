@@ -12,3 +12,6 @@ To build the application run `npm run build`
 
 ### Libraries used
 `PrimeReact` library used to create UI elements. Documentation can be found [here](https://www.primefaces.org/primereact/#/)
+
+### Code Deployed
+Application is up and running live at `[https://eurail-task.netlify.com]`(https://eurail-task.netlify.com)
